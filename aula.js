@@ -40,7 +40,7 @@ function validaQuantidade(){
 function validaUnitario(){
     //verifica se o campo está vazio
     if(unitario.value.trim() === ""){
-        unitario.style.background = "yellow"; LANCHE?
+        unitario.style.background = "yellow"; LANCHE;
         mensagem.innerHTML = "Preencha a valor unitário do Produto!";
         $('#alerta').modal('show');
         return false;
@@ -49,4 +49,3 @@ function validaUnitario(){
         return true;
     }
 }
-    
