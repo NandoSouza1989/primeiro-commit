@@ -20,7 +20,7 @@ function validaQuantidade(){
     //verifica se o campo está vazio
     if(quantidade.value.trim() === ""){
         quantidade.style.background = "yellow";
-        mensagem.innerHTML = "Preencha a quantidade do Produto!";
+        mensagem.innerHTML = "Preencha a quantidade do Prboduto!";
         $('#alerta').modal('show');
         return false;
     } else {
